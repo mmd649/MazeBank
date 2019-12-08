@@ -3,7 +3,7 @@ MazeBank is a command line based application that simulates a real world Banking
 The data is retained using MYSql database this means that any changes made to an 'account' will be recorded and be 
 available even after the program has been terminated.
 
-###Setting up the database.
+### Setting up the database.
 ```sql
     CREATE TABLE accounts (
         id int NOT NULL AUTO_INCREMENT,
@@ -22,12 +22,12 @@ available even after the program has been terminated.
         FOREIGN KEY (id) REFERENCES accounts(id)
     );
 ```
-#####accounts
+##### accounts
 id(primary) | _username | _password | account_type | first_name | last_name | balance
 ------------|-----------|-----------|--------------|------------|-----------|---------
 1           | Test      | 123       | Savings      | Name       | Name      | 10.00
 
-#####transaction_history
+##### transaction_history
 id(foreign) | _transaction 
 ------------|-------------
 1           | 100.00
