@@ -25,7 +25,7 @@ available even after the program has been terminated.
 ##### accounts
 id(primary) | _username | _password | account_type | first_name | last_name | balance
 ------------|-----------|-----------|--------------|------------|-----------|---------
-1           | Test      | 123       | Savings      | Name       | Name      | 10.00
+1           | Test      | 123       | Savings      | Name       | Name      | 60.01
 
 ##### transaction_history
 id(foreign) | _transaction 
